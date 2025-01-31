@@ -38,11 +38,11 @@ function setup() {
   dropdown.option('Surface Tension 1');
   dropdown.option('Hazardous Environments');
   dropdown.option('The Only Thing They Fear Is You')
-  dropdown.option('Bfg Division')
-  dropdown.changed(songChanged)
+  dropdown.option('Bfg Division');
+  dropdown.changed(songChanged);
   
   Songs=[dropdown.selected(), 'mp3']
-  var combined=join(Songs,'.')
+  var combined=join(Songs,'.');
   music=loadSound(combined);
   //noStroke();
 }
@@ -55,27 +55,27 @@ function songChanged(){
 }
 
 function playSong() {
-  music.stop()
-  music.play()
+  music.stop();
+  music.play();
 
 }
 
 function PressedTheButton(){
   if (music.isPlaying()){
-  music.stop()
+  music.stop();
   }
   else{
-  music.play()
+  music.play();
   }
 }
 
 function draw() {
   background('#292929');
-  vol=amp.getLevel()
+  vol=amp.getLevel();
   for(i=0;i<400;i+=25){
     for(j=0;j<400;j+=25){
-      fill(vol*1000,vol*200,j/2)
-      ellipse(i+random(vol*30),j+random(vol*30),vol*250)
+      fill(vol*1000,vol*200,j/2);
+      ellipse(i+random(vol*30),j+random(vol*30),vol*250);
     }
   }
 }
