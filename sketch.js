@@ -15,7 +15,7 @@ let amp;
 let vol;
 
 function setup() {
-  createCanvas(800, 800);
+  createCanvas(400, 400);
   
   amp= new p5.Amplitude()
   
@@ -72,10 +72,10 @@ function PressedTheButton(){
 function draw() {
   background('#292929');
   vol=amp.getLevel()
-  for(i=0;i<800;i+=50){
-    for(j=0;j<800;j+=50){
+  for(i=0;i<400;i+=25){
+    for(j=0;j<400;j+=25){
       fill(vol*1000,vol*200,j/2)
-      ellipse(i+random(vol*30),j+random(vol*30),vol*500)
+      ellipse(i+random(vol*30),j+random(vol*30),vol*250)
     }
   }
 }
