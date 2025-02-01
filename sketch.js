@@ -39,6 +39,8 @@ function setup() {
   dropdown.option('Hazardous Environments');
   dropdown.option('The Only Thing They Fear Is You')
   dropdown.option('Bfg Division');
+  dropdown.option('Who Can It Be Now');
+  dropdown.option('I Am Alone');
   dropdown.changed(songChanged);
   
   Songs=[dropdown.selected(), 'mp3']
