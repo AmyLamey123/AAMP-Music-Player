@@ -40,7 +40,7 @@ function setup() {
   sliderPan = createSlider(-1,1,0,0.1 );
   
   dropdown=createSelect();
-   dropdown.option('Forget About Freeman');
+  dropdown.option('Forget About Freeman');
   dropdown.option("We've Got Hostiles");
   dropdown.option('Surface Tension 1');
   dropdown.option('Hazardous Environments');
@@ -97,14 +97,18 @@ function PressedTheButton(){
 
 function draw() {
   background('#292929');
- 
-  for(i=0;i<400;i+=25){
-    for(j=0;j<400;j+=25){
+  duration = music.duration();
+  current = music.currentTime();
+ stroke('black')
+ strokeWeight(0.5)
+  for(i=0;i<512;i+=25){
+    for(j=0;j<512;j+=25){
       fill(vol*1000,vol*200,j/2)
       ellipse(i+random(vol*30),j+random(vol*30),vol*250)
     }
   }
   noStroke();
+  fill('#fb7e14')
   textSize(25);
   textAlign(CENTER);
   text('Volume',width/2, 500);
