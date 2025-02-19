@@ -17,6 +17,8 @@ The Imps Song - Bobby Prince (Doom 1993)
 The Only Thing They Fear Is You - Mick Gordon (Doom Eternal)
 We've Got Hostiles - Joel Nielsen (Black Mesa)
 Who Can It Be Now - Men At Work (Business as Usual)
+Phobos Anomaly (Sign Of Evil) - Bobby Prince (Doom 1993)
+
 
 This is the tutorial I used to make the visualizer, you should check it out!
 https://www.youtube.com/watch?v=q-C2RM5OFPw&t=591s
