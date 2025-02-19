@@ -18,7 +18,7 @@ let current;
 let playButton, stopButton, restartButton; 
 
 function setup() {
-  createCanvas(400, 400);
+  createCanvas(512, 512);
   
   amp= new p5.Amplitude()
   
@@ -97,7 +97,6 @@ function PressedTheButton(){
 
 function draw() {
   background('#292929');
-  noStroke();
  
   for(i=0;i<400;i+=25){
     for(j=0;j<400;j+=25){
