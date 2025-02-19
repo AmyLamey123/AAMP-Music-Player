@@ -5,6 +5,18 @@ Choose an option from the dropdown menu and it will play. Make sure to stop what
 
 More music will be added eventually ;)
 
+Current Credits for the Music
+BFG Division - Mick Gordon (Doom 2016)
+Forget About Freeman - Joel Nielsen (Black Mesa)
+Hazardous Environments - Kelly Bailey (Half-Life)
+Hiding the Secrets - Bobby Prince (Doom 1993)
+I Am Alone - They Might Be Giants (Dial-A-Song Direct)
+I Sawed The Demons - Bobby Prince (Doom 1993)
+Surface Tension 1 - Joel Nielsen (Black Mesa)
+The Imps Song - Bobby Prince (Doom 1993)
+The Only Thing They Fear Is You - Mick Gordon (Doom Eternal)
+We've Got Hostiles - Joel Nielsen (Black Mesa)
+Who Can It Be Now - Men At Work (Business as Usual)
 
 This is the tutorial I used to make the visualizer, you should check it out!
 https://www.youtube.com/watch?v=q-C2RM5OFPw&t=591s
